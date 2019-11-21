@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+    <div class="container">
+    <button class="male">Male</button>
+    <button class="female">Female</button>
+    </div>
+    <div class="flex">
+    <div class="answerM">
+    </div>
+    <div class="answerF">
+    </div>
+</div>
+    </section>
+    <script>
+        let a = 'купи машину';
+        let b = 'купи платье';
+       let elMale = document.querySelector('.male');
+       let elFemale = document.querySelector('.female');
+       let elAnswerM = document.querySelector('.answerM'); 
+       let elAnswerF = document.querySelector('.answerF'); 
+       elMale.addEventListener('click', function(){
+        elAnswerM.innerHTML = `${a}`;
+        elAnswerF.innerHTML =  ``;
+    });
+       elFemale.addEventListener('click', function(){
+        elAnswerF.innerHTML =  `${b}`;
+        elAnswerM.innerHTML = ``;
+    });
+
+    </script>
+</body>
+</html>

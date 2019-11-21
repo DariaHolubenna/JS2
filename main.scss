@@ -1,0 +1,61 @@
+section{
+    background-image: url(https://img.desktopwallpapers.ru/food/pics/wide/1920x1200/e01ff165ae7b2d81e01320fda8c7174a.jpg);
+    background-size: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    min-width: 320px;
+    max-width: 1020px;
+        margin: 0 auto;
+        font-family: monospace, sans-serif;
+        font-size: 22px;
+        font-weight: 900;
+        button{
+            width: 400px;
+            height: 50px;
+            border-radius: 15px;
+            margin-top: 200px;
+            font-family: monospace, sans-serif;
+            font-size: 22px;
+            font-weight: 900;
+            cursor: pointer;
+        }
+        .female{
+            background-color: wheat;
+            border: 2px solid palevioletred;
+            color: cadetblue;
+        }
+        .male{
+            border: 2px solid cadetblue;
+            color: cadetblue;
+        }   
+    }
+    .flex{
+        display: flex;
+        justify-content: space-around;
+        .answerM{
+            font-family: monospace, sans-serif;
+            font-weight: 900;
+            font-size: 42px;
+            color: green;
+            margin-top: 50px; 
+            background-color: wheat;
+            border-radius: 15px;
+            padding: 5px;
+        }
+        .answerF{
+            font-family: monospace, sans-serif;
+            font-weight: 900;
+            font-size: 42px;
+            margin-top: 50px;
+            color: green;
+            background-color: wheat;
+            border-radius: 15px;
+            padding: 5px;
+        }
+    }
+}
